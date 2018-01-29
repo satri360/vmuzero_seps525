@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4595,7 +4595,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="FRAME2" library="vmuzero" deviceset="FRAME_A4_VMUZERO" device="" value="OLED"/>
 <part name="R1" library="microbuilder" deviceset="RESISTOR" device="_0805MP" value="1.1k"/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
-<part name="R2" library="microbuilder" deviceset="RESISTOR" device="_0805MP" value="590"/>
+<part name="R2" library="microbuilder" deviceset="RESISTOR" device="_0805MP" value="5.9k"/>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
 <part name="R3" library="microbuilder" deviceset="RESISTOR" device="_0805MP" value="NOSTUFF"/>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
@@ -4609,8 +4609,8 @@ DIN A4, landscape with location and doc. field</description>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
 <part name="R8" library="microbuilder" deviceset="RESISTOR" device="_0805MP" value="NOSTUFF"/>
 <part name="R9" library="microbuilder" deviceset="RESISTOR" device="_0805MP" value="10k"/>
-<part name="R10" library="microbuilder" deviceset="RESISTOR" device="_0805MP" value="NOSTUFF"/>
-<part name="R11" library="microbuilder" deviceset="RESISTOR" device="_0805MP" value="10k"/>
+<part name="R10" library="microbuilder" deviceset="RESISTOR" device="_0805MP" value="10k"/>
+<part name="R11" library="microbuilder" deviceset="RESISTOR" device="_0805MP" value="NOSTUFF"/>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
 <part name="C1" library="microbuilder" deviceset="CAP_CERAMIC" device="_0805MP" value="10uF"/>
@@ -4713,7 +4713,7 @@ DIN A4, landscape with location and doc. field</description>
 <text x="187.96" y="55.88" size="1.778" layer="97">EN1 EN2  Current
  0   0   100mA
  1   0   500mA
- 0   1   ISET
+ 0   1   ILIM
  1   1   Standby</text>
 <text x="30.48" y="63.5" size="1.778" layer="97">S1
 0 ON
